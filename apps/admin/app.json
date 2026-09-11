@@ -21,7 +21,7 @@
     "web": { "bundler": "metro" },
     "plugins": ["expo-router", "expo-secure-store"],
     "experiments": { "typedRoutes": true },
-    "updates": { "enabled": false, "fallbackToCacheTimeout": 0 },
-    "extra": { "eas": { "projectId": "00000000-0000-0000-0000-000000000000" } }
+    "updates": { "enabled": false },
+    "extra": {}
   }
 }
