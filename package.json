@@ -2,7 +2,10 @@
   "name": "germanium-3as",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "admin": "npm --workspace apps/admin run start",
     "candidat": "npm --workspace apps/candidat run start",
@@ -12,5 +15,8 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "graphql": "^17.0.2"
   }
 }
