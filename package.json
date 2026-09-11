@@ -1,0 +1,16 @@
+{
+  "name": "germanium-3as",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "admin": "npm --workspace apps/admin run start",
+    "candidat": "npm --workspace apps/candidat run start",
+    "build:admin": "npm --workspace apps/admin run build",
+    "build:candidat": "npm --workspace apps/candidat run build",
+    "supabase:push": "echo 'Copier supabase/schema.sql dans Supabase SQL Editor et executer'"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

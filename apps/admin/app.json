@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Germanium Admin",
+    "slug": "germanium-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "germanium-admin",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#052E16",
+      "resizeMode": "contain",
+      "image": "./assets/splash.png"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#052E16" },
+      "package": "com.germanium.admin"
+    },
+    "web": { "bundler": "metro" },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": { "typedRoutes": true }
+  }
+}
